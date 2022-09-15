@@ -1,0 +1,11 @@
+GET http://localhost:5000/feedback
+
+###
+
+POST http://localhost:5000/feedback
+content-type: application/json
+
+{
+  "name": "Malin",
+  "text": "Jag är så nöjd nöjd nööööööjd"
+}
