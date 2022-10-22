@@ -103,24 +103,34 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  max-width: 1500px;
+  justify-content: center;
+}
 
+.form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .guestbook-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  max-width: 1000px;
+  justify-content: center;
+  height: auto;
+}
+
+.guestbook-div {
+  display: flex;
+  flex-direction: column;
 }
 
 .guestbook-square {
   display: flex;
-
+  flex-direction: column;
   padding: 10px;
-  background-color: aqua;
+  border: solid 2px black;
   margin: 10px;
   width: 300px;
   height: auto;
@@ -132,18 +142,11 @@ code {
   flex-direction: column;
 }
 
-.person-name {
-
-}
-
-.person-square {
-  
-}
-
 .wrap-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .textarea {

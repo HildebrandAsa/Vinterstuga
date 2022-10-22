@@ -51,7 +51,7 @@ const GuestbookForm = () => {
     <div className="wrap-container">
       <form className="form-container" onSubmit={handleSubmit}>
         <p>Skriv gärna ett inlägg om hur du upplevde din vistelse i Branäs och Lassiebyn!</p>
-        <div>
+        <div className="form-div">
         <label htmlFor="name">Namn:</label>
         <input
           className="name-input"
@@ -72,8 +72,6 @@ const GuestbookForm = () => {
         </div>
       {showMessage && <div>{showMessage}</div>}
       </form>
-      
-      
     </div>
   )
 }

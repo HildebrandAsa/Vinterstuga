@@ -9,13 +9,11 @@ const GuestbookPage = () => {
   const { feedback } = useContext(FeedbackContext)
 
   return (
-    <div>
-      <div>
-        <GuestbookForm />
-      </div>
-      <div>
+    <div className="guestbook-container">
+      <GuestbookForm />
+      <div className="guestbook-div">
         {feedback.map((feedback) => (
-          <div key={feedback.id}>
+          <div className="guestbook-square" key={feedback.id}>
             <p>{feedback.name}</p>
             <p>{feedback.text}</p>
 
